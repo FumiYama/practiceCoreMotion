@@ -13,6 +13,8 @@
 		325B5E2F1B980F24008CCFC5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 325B5E2E1B980F24008CCFC5 /* Images.xcassets */; };
 		325B5E321B980F24008CCFC5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 325B5E301B980F24008CCFC5 /* LaunchScreen.xib */; };
 		325B5E3E1B980F24008CCFC5 /* practiceCoreMotionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325B5E3D1B980F24008CCFC5 /* practiceCoreMotionTests.swift */; };
+		32EDBE4A1B9AD91E00532A9A /* settingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EDBE491B9AD91E00532A9A /* settingViewController.swift */; };
+		32EDBE4C1B9ADBD300532A9A /* See You Again.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 32EDBE4B1B9ADBD300532A9A /* See You Again.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		325B5E371B980F24008CCFC5 /* practiceCoreMotionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = practiceCoreMotionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		325B5E3C1B980F24008CCFC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		325B5E3D1B980F24008CCFC5 /* practiceCoreMotionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practiceCoreMotionTests.swift; sourceTree = "<group>"; };
+		32EDBE491B9AD91E00532A9A /* settingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingViewController.swift; sourceTree = "<group>"; };
+		32EDBE4B1B9ADBD300532A9A /* See You Again.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "See You Again.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +81,10 @@
 		325B5E241B980F24008CCFC5 /* practiceCoreMotion */ = {
 			isa = PBXGroup;
 			children = (
+				32EDBE4B1B9ADBD300532A9A /* See You Again.mp3 */,
 				325B5E271B980F24008CCFC5 /* AppDelegate.swift */,
 				325B5E291B980F24008CCFC5 /* ViewController.swift */,
+				32EDBE491B9AD91E00532A9A /* settingViewController.swift */,
 				325B5E2B1B980F24008CCFC5 /* Main.storyboard */,
 				325B5E2E1B980F24008CCFC5 /* Images.xcassets */,
 				325B5E301B980F24008CCFC5 /* LaunchScreen.xib */,
@@ -195,6 +201,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32EDBE4C1B9ADBD300532A9A /* See You Again.mp3 in Resources */,
 				325B5E2D1B980F24008CCFC5 /* Main.storyboard in Resources */,
 				325B5E321B980F24008CCFC5 /* LaunchScreen.xib in Resources */,
 				325B5E2F1B980F24008CCFC5 /* Images.xcassets in Resources */,
@@ -217,6 +224,7 @@
 			files = (
 				325B5E2A1B980F24008CCFC5 /* ViewController.swift in Sources */,
 				325B5E281B980F24008CCFC5 /* AppDelegate.swift in Sources */,
+				32EDBE4A1B9AD91E00532A9A /* settingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
